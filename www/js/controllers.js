@@ -52,6 +52,7 @@ angular.module('starter.controllers', [])
 //    function minusFAIL(){
 //    cordova.plugins.MyMath.minus([5,20],success , error);
 //    };
+            
     function success(msg){
     console.log(msg);
     alert("成功回调:" + msg);
